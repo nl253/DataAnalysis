@@ -1,8 +1,41 @@
-# Data sets 
+# Data sets
 
-These mostly come from [kaggle](https://www.kaggle.com/) (highly recommended).
-Others were downloaded from the UK ONS and https://data.gov.uk/
+Most come from [kaggle](https://www.kaggle.com/) (highly recommended).
 
-[Machine Learning Reddit](https://www.reddit.com/r/MachineLearning/)
+Others are from
 
-[Guide to machine learning](http://yerevann.com/a-guide-to-deep-learning/?utm_campaign=Revue+newsletter&utm_medium=Newsletter&utm_source=revue)
+- [UK ONS](https://www.ons.gov.uk/)
+- [data.gov.uk](https://data.gov.uk/)
+
+## The Aim
+
+The aim here is to get some practice with tools such as
+
+- [numpy](https://docs.scipy.org/doc/numpy-dev/index.html)
+- [pandas](pandas.pydata.org)
+- [matplotlib](https://matplotlib.org/api/pyplot_summary.html)
+- [seaborn](https://seaborn.pydata.org)
+- [scipy](https://scipy.org)
+- [sympy](http://www.sympy.org/en/index.html)
+
+while still having some fun, because after all, this *IS* real data. 
+
+Each dataset is zipped in a separate directory (becasue of space limitations on GitHub) 
+so to get started simply use your favourity archiving utility.<br>
+eg <br>
+
+```sh
+$ cd credit_cards/ 
+$ 7z x credit_cards.zip
+# cvs files unpacked in this directory
+$ ipython3 # import them using pandas.read_csv(FILENAME)
+```
+
+The strucure allows you to freely create [Jupyter Notebooks](http://jupyter.org/) and store generated plots in each directory.
+
+----------------------------------------
+
+## Resources
+
+* [Machine Learning Reddit](https://www.reddit.com/r/MachineLearning/)
+* [Guide to machine learning](http://yerevann.com/a-guide-to-deep-learning/?utm_campaign=Revue+newsletter&utm_medium=Newsletter&utm_source=revue)
