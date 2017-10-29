@@ -10,7 +10,7 @@ Others are from
 ## The Aim
 
 The aim here is to get some practice with tools such as
-
+ 
 - [numpy](https://docs.scipy.org/doc/numpy-dev/index.html)
 - [pandas](pandas.pydata.org)
 - [matplotlib](https://matplotlib.org/api/pyplot_summary.html)
@@ -32,6 +32,15 @@ $ ipython3 # import them using pandas.read_csv(FILENAME)
 ```
 
 The strucure allows you to freely create [Jupyter Notebooks](http://jupyter.org/) and store generated plots in each directory.
+
+I will be including `requirements.txt` with all the essential packages so once you clone, simply run:
+
+```sh
+# optionally configure venv
+$ python -m venv .pyvenv 
+$ source .pyvenv/bin/activate # if running bash
+$ pip install --user requirements.txt
+``` 
 
 ----------------------------------------
 
