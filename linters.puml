@@ -1,0 +1,11 @@
+@startuml
+pylint <|-- mccabe
+pylint <|-- isort
+flake8 <|-- pyflakes
+flake8 <|-- pycodestyle
+flake8 <|-- mccabe
+class radon
+class mypy
+class vulture
+class pycallgraph
+@enduml
