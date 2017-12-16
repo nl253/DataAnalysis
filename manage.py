@@ -22,8 +22,7 @@ if __name__ == '__main__':
 
     if doc["requirements"]:
         from subprocess import run
-
-        run(["pip", "install", "--user", "-r", "requirements.txt"])
+        run(["pip", "install", "--user", '--pre', "-r", "requirements.txt"])
 
     elif doc["unzip"] and doc["<zipped_file.zip>"]:
 
