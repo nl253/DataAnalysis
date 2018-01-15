@@ -25,10 +25,12 @@ if __name__ == '__main__':
         run(["pip", "install", "--user", '--pre', "-r", "requirements.txt"])
 
     elif doc["unzip"] and doc["<zipped_file.zip>"]:
-
         import zipfile
 
-        if not (doc["<zipped_file.zip>"] and zipfile.is_zipfile(doc["<zipped_file.zip>"])):
+        if not (
+            doc["<zipped_file.zip>"]
+            and zipfile.is_zipfile(doc["<zipped_file.zip>"])
+        ):
             print("Please pass a valid path to a zip file.")
             raise FileNotFoundError()
 
